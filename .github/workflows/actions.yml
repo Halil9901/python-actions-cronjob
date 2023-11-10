@@ -2,8 +2,8 @@ name: run main.py
 
 on:
   schedule:
-    # - cron: '0 9,21 * * *' Cron expression to run a job twice a day at 9am and 9pm
-    - cron: '* * * * *' # Every minute
+    - cron: '0 9,21 * * *' #Cron expression to run a job twice a day at 9am and 9pm
+    # - cron: '* * * * *' # Every minute
 jobs:
   build:
     runs-on: ubuntu-latest
